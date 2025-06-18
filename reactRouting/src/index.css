@@ -1,0 +1,45 @@
+.Home {
+    background-color: aqua;
+}
+
+.Welcome{
+    color:gold;
+}
+
+.Secondary-welcome{
+    color:blueviolet;
+}
+
+.MyList{
+    color: orange;
+    list-style-type: none;
+}
+
+.AboutUs{
+    color: red;
+}
+
+.AboutParagraph{
+    color: springgreen;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-top: 1 rem;
+}
+
+.Contact{
+    color: blue;
+}
+
+.ContactInfo{
+    margin: 40px auto;
+    padding: 24px;
+    background-color: yellow;
+    border-radius: 12px;
+}
+
+.Links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
