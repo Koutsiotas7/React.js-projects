@@ -1,0 +1,115 @@
+body{
+    background-color: lightcyan;
+}
+
+.header{ 
+    color: red; 
+    text-align: center; 
+}
+
+.balance{ 
+    text-align: center; 
+} 
+
+.balance-amount{ 
+    font-size: 1.8rem; 
+}
+
+.category{ 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    text-align: center; 
+    gap: 50px; 
+    border: 2px solid black; 
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    flex-wrap: wrap;
+    margin:20px auto; 
+} 
+
+.income{ 
+    color: green; 
+    font-size: 1.2rem; 
+} 
+
+.expense{ 
+    color: red; 
+    font-size: 1.2rem; 
+}
+
+.transaction-list {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width:90%;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: lightgray;
+}
+
+.transaction-list h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.transaction-list ul {
+    list-style: none;
+}
+
+.transaction-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+
+.add-transaction {
+    border: 2px solid gray;
+    border-radius: 8px;
+    padding: 20px;
+    width: 90%;        
+    max-width: 400px;
+    margin: 20px auto;    
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.add-transaction input {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.add-transaction button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: green; 
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.add-transaction button:hover {
+    background-color: #45a049;
+}
+
+.app { 
+    width: 90%;
+    max-width: 500px; 
+    margin: 40px auto; 
+    padding: 30px; 
+    border: 2px solid #333; 
+    border-radius: 12px; 
+    background-color: lightblue; 
+    text-align: center; 
+}
