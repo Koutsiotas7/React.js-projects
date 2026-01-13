@@ -1,12 +1,32 @@
-# React + Vite
+# Color Picker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+A React application that allows users to pick colors and view them in a list. Users can interactively add new colors and see a visual representation of each selected color.
 
-Currently, two official plugins are available:
+## Tech Stack
+- React
+- JavaScript
+- CSS
+- Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Add new colors through an input
+- Display a list of selected colors
+- Color preview cards
+- Clean & responsive UI
 
-## Expanding the ESLint configuration
+## How to Run Locally
+1. Clone the repository:
+```bash
+git clone https://github.com/Koutsiotas7/React.js-projects.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Navigate to the project folder
+
+3. Install dependencies:
+npm install
+
+4. Start the development server:
+npm run dev
+
+The app will open in your default browser (http://localhost:5173).
+
