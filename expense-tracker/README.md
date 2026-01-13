@@ -1,16 +1,33 @@
-# React + Vite
+# Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+A React application that helps users track expenses. Users can add new expenses with a title, amount, and date, and view a list of all recorded expenses.
 
-Currently, two official plugins are available:
+## Tech Stack
+- React
+- JavaScript
+- CSS
+- Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Add new expenses
+- View a list of existing expenses
+- Displays expense details (title, amount, date)
+- Simple and responsive UI
 
-## React Compiler
+## How to Run Locally
+1. Clone the repository:
+```bash
+git clone https://github.com/Koutsiotas7/React.js-projects.git
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. Navigate to this project folder:
+cd React.js-projects/expense-tracker
 
-## Expanding the ESLint configuration
+3.Install dependencies:
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. Start the development server
+npm run dev
+
+The app will open in your browser (typically at http://localhost:5173).
+
